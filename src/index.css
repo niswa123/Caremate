@@ -23,70 +23,70 @@
 
 /* Light Theme Variables */
 .light-theme {
-  --bg-primary: oklch(0.985 0.006 240); /* Cool bright ice-white */
-  --bg-secondary: oklch(0.96 0.01 240); /* Icy pastel background */
-  --bg-card: oklch(0.975 0.008 240); /* Bright ice-blue card background */
-  --text-primary: oklch(0.15 0.03 245); /* Deep midnight royal charcoal */
-  --text-secondary: oklch(0.38 0.02 240); /* Slate blue-gray */
-  --text-tertiary: oklch(0.58 0.015 240); /* Muted ice-gray */
-  --primary: oklch(0.58 0.18 245); /* Premium technological royal blue */
-  --secondary: oklch(0.68 0.14 210); /* Cool vibrant sky-cyan */
-  --border: oklch(0.92 0.015 240); /* Icy gray border */
-  --border-focus: oklch(0.58 0.18 245 / 0.5);
+  --bg-primary: oklch(0.98 0.012 75); /* Warm light sand ivory */
+  --bg-secondary: oklch(0.955 0.015 75); /* Muted warm sandy-clay background */
+  --bg-card: oklch(0.99 0.008 75); /* Soft premium warm paper-white card */
+  --text-primary: oklch(0.24 0.02 65); /* Elegant warm graphite charcoal */
+  --text-secondary: oklch(0.42 0.015 70); /* Warm slate clay-gray */
+  --text-tertiary: oklch(0.60 0.01 70); /* Soft warm sandy gray */
+  --primary: oklch(0.58 0.11 142); /* Calming Sage Green / Шалфейный (calm and trust) */
+  --secondary: oklch(0.65 0.12 36); /* Soft warm terracotta / Коралловый глиняный */
+  --border: oklch(0.925 0.012 75); /* Subtle warm sandy border */
+  --border-focus: oklch(0.58 0.11 142 / 0.5);
   
-  /* Semantic Status Colors (Highly tailored, non-garish) */
+  /* Semantic Status Colors (Highly tailored, warm-harmonious) */
   --status-good-bg: oklch(0.96 0.02 145);
-  --status-good-text: oklch(0.45 0.13 145);
-  --status-good-border: oklch(0.85 0.06 145);
+  --status-good-text: oklch(0.42 0.12 145);
+  --status-good-border: oklch(0.85 0.05 145);
   
   --status-warning-bg: oklch(0.96 0.02 60);
-  --status-warning-text: oklch(0.55 0.11 60);
-  --status-warning-border: oklch(0.88 0.06 60);
+  --status-warning-text: oklch(0.50 0.10 60);
+  --status-warning-border: oklch(0.88 0.05 60);
   
   --status-danger-bg: oklch(0.95 0.02 25);
-  --status-danger-text: oklch(0.45 0.14 25);
-  --status-danger-border: oklch(0.85 0.07 25);
+  --status-danger-text: oklch(0.45 0.12 25);
+  --status-danger-border: oklch(0.85 0.06 25);
   
-  --shadow-sm: 0 2px 8px oklch(0.15 0.03 245 / 0.04);
-  --shadow-md: 0 10px 30px oklch(0.15 0.03 245 / 0.06);
-  --shadow-lg: 0 20px 50px oklch(0.15 0.03 245 / 0.08);
+  --shadow-sm: 0 2px 8px oklch(0.24 0.02 65 / 0.03);
+  --shadow-md: 0 10px 30px oklch(0.24 0.02 65 / 0.04);
+  --shadow-lg: 0 20px 50px oklch(0.24 0.02 65 / 0.06);
 
-  --glass-bg: oklch(0.985 0.006 240 / 0.85);
-  --glass-border: oklch(0.15 0.03 245 / 0.08);
+  --glass-bg: oklch(0.98 0.012 75 / 0.85);
+  --glass-border: oklch(0.24 0.02 65 / 0.06);
 }
 
 /* Dark Theme Variables */
 .dark-theme {
-  --bg-primary: oklch(0.12 0.025 245); /* Deep midnight ocean blue */
-  --bg-secondary: oklch(0.09 0.02 245); /* Abyssal deep navy */
-  --bg-card: oklch(0.15 0.025 245); /* Sleek deep navy card */
-  --text-primary: oklch(0.95 0.01 240); /* Icy ivory text */
-  --text-secondary: oklch(0.74 0.015 240); /* Soft periwinkle-slate gray */
-  --text-tertiary: oklch(0.54 0.015 240); /* Medium slate gray */
-  --primary: oklch(0.62 0.17 245); /* Electric royal blue */
-  --secondary: oklch(0.72 0.14 210); /* Neon cyan-blue */
-  --border: oklch(0.22 0.025 245); /* Deep slate-blue border */
-  --border-focus: oklch(0.62 0.17 245 / 0.6);
+  --bg-primary: oklch(0.16 0.015 65); /* Deep midnight warm charcoal */
+  --bg-secondary: oklch(0.12 0.012 65); /* Deeper warm volcanic ash */
+  --bg-card: oklch(0.20 0.016 65); /* Sleek dark clay card background */
+  --text-primary: oklch(0.96 0.008 75); /* Soft premium warm ivory text */
+  --text-secondary: oklch(0.78 0.012 75); /* Soft sandy-clay gray */
+  --text-tertiary: oklch(0.58 0.012 75); /* Medium sandy gray */
+  --primary: oklch(0.68 0.12 142); /* Glowing Sage Green / Неоновый шалфейный */
+  --secondary: oklch(0.72 0.13 36); /* Soft glowing terracotta / Теплый коралловый */
+  --border: oklch(0.25 0.015 65); /* Dark sandy border */
+  --border-focus: oklch(0.68 0.12 142 / 0.6);
 
   /* Semantic Status Colors (Highly tailored, non-garish) */
-  --status-good-bg: oklch(0.18 0.03 145 / 0.3);
-  --status-good-text: oklch(0.72 0.12 145);
-  --status-good-border: oklch(0.62 0.16 145 / 0.2);
+  --status-good-bg: oklch(0.18 0.03 145 / 0.2);
+  --status-good-text: oklch(0.72 0.10 145);
+  --status-good-border: oklch(0.62 0.12 145 / 0.15);
   
-  --status-warning-bg: oklch(0.18 0.02 60 / 0.3);
-  --status-warning-text: oklch(0.78 0.1 60);
-  --status-warning-border: oklch(0.68 0.12 60 / 0.2);
+  --status-warning-bg: oklch(0.18 0.02 60 / 0.2);
+  --status-warning-text: oklch(0.78 0.08 60);
+  --status-warning-border: oklch(0.68 0.10 60 / 0.15);
   
-  --status-danger-bg: oklch(0.16 0.03 25 / 0.3);
-  --status-danger-text: oklch(0.75 0.13 25);
-  --status-danger-border: oklch(0.62 0.16 25 / 0.2);
+  --status-danger-bg: oklch(0.16 0.03 25 / 0.2);
+  --status-danger-text: oklch(0.75 0.11 25);
+  --status-danger-border: oklch(0.62 0.12 25 / 0.15);
   
-  --shadow-sm: 0 4px 12px oklch(0.05 0.02 245 / 0.2);
-  --shadow-md: 0 16px 40px oklch(0.05 0.02 245 / 0.3);
-  --shadow-lg: 0 32px 80px oklch(0.05 0.02 245 / 0.45);
+  --shadow-sm: 0 4px 12px oklch(0.08 0.01 65 / 0.15);
+  --shadow-md: 0 16px 40px oklch(0.08 0.01 65 / 0.2);
+  --shadow-lg: 0 32px 80px oklch(0.08 0.01 65 / 0.3);
 
-  --glass-bg: oklch(0.12 0.025 245 / 0.85);
-  --glass-border: oklch(0.95 0.01 240 / 0.08);
+  --glass-bg: oklch(0.16 0.015 65 / 0.85);
+  --glass-border: oklch(0.96 0.008 75 / 0.06);
 }
 
 /* ==========================================================================
@@ -513,11 +513,11 @@ p {
 }
 
 .light-theme .tilt-glow-card {
-  --glow-color: oklch(0.58 0.18 245 / 0.06);
+  --glow-color: oklch(0.58 0.11 142 / 0.08);
 }
 
 .dark-theme .tilt-glow-card {
-  --glow-color: oklch(0.62 0.17 245 / 0.12);
+  --glow-color: oklch(0.68 0.12 142 / 0.15);
 }
 
 .card-icon {
